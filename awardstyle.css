@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Castoro&family=Catamaran:wght@600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&family=Fira+Code&family=Karla&family=Noto+Serif&family=Nunito&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&family=Questrial&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Castoro&family=Catamaran:wght@600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&family=Fira+Code&family=Karla&family=Noto+Serif&family=Nunito&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&family=Questrial&family=Varela+Round&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none; 
+    color:inherit;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+    scroll-snap-align: start;
+}
+
+.one{
+    height: 100vh;
+    width: 1280px;
+    background-image:url(Sectionone.png);
+}
+.two{
+    height: 100vh;
+    width: 1280px;
+    background-image:url(Sectiontwo.png);
+}
+.three{
+    height: 100vh;
+    width: 1280px;
+    background-image:url(Sectionthree.png);
+}
+.four{
+    height: 100vh;
+    width: 1280px;
+    background-image:url(Sectionfour.png);
+}
+.five{
+    height: 100vh;
+    width: 1280px;
+    background-image:url(Sectionfive.jpg);
+}
+.one h1{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+    padding-left:500px;
+    padding-top: 50px;
+}
+.two h1{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+    padding-left:500px;
+    padding-top: 50px;
+}
+.three h1{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+    padding-left:500px;
+    padding-top: 50px;
+}
+.four h1{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+    padding-left:500px;
+    padding-top: 50px;
+}
+.five h1{
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-size: 150px;
+    padding-left:175px;
+    padding-top: 70px;
+}
+h3{
+    color:#fff;
+    font-family: "Cormorant Garamond", serif;
+    padding-left: 30px;
+    padding-top: 40px;
+}
